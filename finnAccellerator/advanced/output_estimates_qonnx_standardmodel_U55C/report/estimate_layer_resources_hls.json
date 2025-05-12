@@ -1,0 +1,106 @@
+{
+  "MVAU_hls_0": {
+    "BRAM_18K": "0",
+    "FF": "7120",
+    "LUT": "14179",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "2"
+  },
+  "StreamingMaxPool_hls_0": {
+    "BRAM_18K": "0",
+    "FF": "486",
+    "LUT": "3010",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "MVAU_hls_1": {
+    "BRAM_18K": "0",
+    "FF": "18127",
+    "LUT": "45840",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "12"
+  },
+  "StreamingMaxPool_hls_1": {
+    "BRAM_18K": "0",
+    "FF": "861",
+    "LUT": "5080",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "MVAU_hls_2": {
+    "BRAM_18K": "0",
+    "FF": "17144",
+    "LUT": "29604",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "6"
+  },
+  "StreamingMaxPool_hls_2": {
+    "BRAM_18K": "0",
+    "FF": "1236",
+    "LUT": "7025",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "MVAU_hls_3": {
+    "BRAM_18K": "0",
+    "FF": "10354",
+    "LUT": "14738",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "3"
+  },
+  "StreamingMaxPool_hls_3": {
+    "BRAM_18K": "0",
+    "FF": "1611",
+    "LUT": "9223",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "MVAU_hls_4": {
+    "BRAM_18K": "0",
+    "FF": "9741",
+    "LUT": "18845",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "1"
+  },
+  "StreamingMaxPool_hls_4": {
+    "BRAM_18K": "0",
+    "FF": "2369",
+    "LUT": "13637",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "MVAU_hls_5": {
+    "BRAM_18K": "0",
+    "FF": "13366",
+    "LUT": "22959",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "1"
+  },
+  "GlobalAccPool_hls_0": {
+    "BRAM_18K": "0",
+    "FF": "102",
+    "LUT": "462",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "MVAU_hls_6": {
+    "BRAM_18K": "0",
+    "FF": "10077",
+    "LUT": "24834",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "1"
+  }
+}

@@ -1,0 +1,92 @@
+[DEBUG] Starting Quant+Relu conversion analysis...
+
+[DEBUG] Found Quant node: /conv1/weight_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - [STOP] No predecessor node found. Skipping.
+
+[DEBUG] Found Quant node: /relu1/act_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - Predecessor node: /relu1/act_quant/activation_impl/Relu (type: Relu)
+  - narrow: 0, signed: 0
+  - [PASS] This node should be convertible to MultiThreshold.
+
+[DEBUG] Found Quant node: /conv2/weight_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - [STOP] No predecessor node found. Skipping.
+
+[DEBUG] Found Quant node: /relu2/act_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - Predecessor node: /relu2/act_quant/activation_impl/Relu (type: Relu)
+  - narrow: 0, signed: 0
+  - [PASS] This node should be convertible to MultiThreshold.
+
+[DEBUG] Found Quant node: /conv3/weight_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - [STOP] No predecessor node found. Skipping.
+
+[DEBUG] Found Quant node: /relu3/act_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - Predecessor node: /relu3/act_quant/activation_impl/Relu (type: Relu)
+  - narrow: 0, signed: 0
+  - [PASS] This node should be convertible to MultiThreshold.
+
+[DEBUG] Found Quant node: /conv4/weight_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - [STOP] No predecessor node found. Skipping.
+
+[DEBUG] Found Quant node: /relu4/act_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - Predecessor node: /relu4/act_quant/activation_impl/Relu (type: Relu)
+  - narrow: 0, signed: 0
+  - [PASS] This node should be convertible to MultiThreshold.
+
+[DEBUG] Found Quant node: /conv5/weight_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - [STOP] No predecessor node found. Skipping.
+
+[DEBUG] Found Quant node: /relu5/act_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - Predecessor node: /relu5/act_quant/activation_impl/Relu (type: Relu)
+  - narrow: 0, signed: 0
+  - [PASS] This node should be convertible to MultiThreshold.
+
+[DEBUG] Found Quant node: /conv6/weight_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - [STOP] No predecessor node found. Skipping.
+
+[DEBUG] Found Quant node: /relu6/act_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - Predecessor node: /relu6/act_quant/activation_impl/Relu (type: Relu)
+  - narrow: 0, signed: 0
+  - [PASS] This node should be convertible to MultiThreshold.
+
+[DEBUG] Found Quant node: /fc1/weight_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - [STOP] No predecessor node found. Skipping.
+
+[DEBUG] Found Quant node: /relu_fc1/act_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - Predecessor node: /relu_fc1/act_quant/activation_impl/Relu (type: Relu)
+  - narrow: 0, signed: 0
+  - [PASS] This node should be convertible to MultiThreshold.
+
+[DEBUG] Found Quant node: /fc2/weight_quant/export_handler/Quant
+  - Zero-point: 0.0
+  - Bit width: 8.0
+  - [STOP] No predecessor node found. Skipping.
+
+[DEBUG] Quant+Relu conversion analysis complete.
