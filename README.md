@@ -60,11 +60,16 @@ Use the final output folder to retrieve the deployable bitfile.
 
 ### 3. Deploy on Ultra96v2 FPGA
 
-Modify `driver.py` as follows:
+After having copied the output FINN (driver+bitstream) and the dataset, modify `driver.py` (from FINN output folder) as follows:
 
 ```python
 from pynq import Device
 device = Device.active_device
+```
+
+During testing the board also required to modify the venv as follows:
+```bash
+source /etc/profile.d/pynq_venv.sh
 ```
 
 Then run inference:
